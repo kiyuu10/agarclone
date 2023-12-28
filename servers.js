@@ -8,7 +8,6 @@ const io = socketio(expressServer)
 
 io.on('connection',(socket)=> {
     socket.on('event',()=>{})
-    socket.on()
 })
 
 //App organization
